@@ -1,0 +1,160 @@
+/*
+	Name: Aysatu Diallo
+	Date: 10/25/20
+	File name: Diallo_lab9_proj.css
+	Supporting Files: Diallo_Lab9_Proj.html
+	Blackboard User Name: aldiallo2
+	Class Section: CTI.110.5871
+	Purpose: External CSS for Diallo_Lab9_Proj.html
+
+*/
+
+/* TAG ELEMENTS */
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: firebrick; 
+  text-align: center;
+  padding: 10px;
+}
+aside {
+  width: 200px;
+  float: left;
+  margin-bottom: 0px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+nav ul li {
+  padding-top: 2px;
+}
+li + li {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+img {
+  border: 7px double rebeccapurple;
+  margin-top: 10px;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: firebrick;
+}
+h3 {
+  color: rebeccapurple;
+}
+table, th, td {
+  border: 2px solid black;
+}
+thead {
+  background-color: firebrick;
+  color: white;
+}
+thead > tr > th {
+  padding: 3%;
+}
+tbody > tr > td,
+tfoot > tr > td {
+  padding: 2%;
+}
+tbody {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+tfoot {
+  font-weight: bold;
+  font-size: 75%;
+  background-color: firebrick;
+  color: white;
+}
+footer {
+  padding: 2px;
+}
+caption {
+  font-family: Times, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  color: black;
+  border: 2px solid rebeccapurple;
+}
+legend {
+  background-color: rebeccapurple;
+  color: white;
+  font-family: Times, Helvetica, serif;
+  padding: 5px 2px;
+}
+label, button {
+  font-family: Arial;
+}
+button {
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 14pt;
+}
+fieldset {
+  padding: 0px 5px;
+}
+
+/* CLASS ELEMENTS */
+.userinfo,
+.tickets,
+.date {
+  margin: 20px 5px;
+}
+
+/* ID ELEMENTS */
+#container {
+  background-color: white;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+#about {
+  width: 700px;
+  float: right;
+} /* main */
+#dc {
+  clear: both;
+}
+#table1 {
+  width: 25%;
+  float: left;
+  margin: 30px 40px;
+  padding: 8px;
+}
+#table2 {
+  width: 25%;
+  float: left;
+  margin-top: 30px;
+  padding: 8px;
+}
+#projectfooter {
+  clear: both;
+  background-color: firebrick;
+  text-align: center;
+  color: white;
+  padding: 2px;
+}
+#calculate {
+  padding: 3px;
+}
+#return {
+  text-align: center;
+  background-color: firebrick;
+  color: white;
+  font-family: Arial;
+  padding: 10px;
+  display: block;
+}
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Name: Aysatu Diallo
+    Blackboard User Name: aldiallo2
+	Filename: Diallo_lab7_proj_form.html
+	Class Section: CTI.110.5871
+	Purpose: Create a form for
+			the Dates and Cost
+    -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L9 Concert Event</title>
+  
+  <link href="./Diallo_lab9_proj.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <form id="form" action="#" method="post"> <!-- # is a placeholder -->
+	  <header id="calculate">
+	    <h1>Calculate Cost of Tickets</h1>
+	  </header>
+	  
+	  <section class="userinfo">
+	    <!-- USER INFORMATION DATA -->
+		<fieldset class="alignment">
+		<legend>User Information</legend>
+		  <ul style="list-style-type: none; padding: 0px">
+		    <li>
+		      <label for="name">Name:</label><br>
+		      <input type="text" name="name" id="name">
+		    </li>
+		    <li>
+		      <label for="phone">Phone Number:</label><br>
+		      <input type="text" name="phone" id="phone"
+			       style="margin: 10px 1px">
+		    </li>
+		   </ul>
+		</fieldset>
+	  </section>
+	  
+	  <section class="tickets">
+	    <!-- TICKETS DATA -->
+		<fieldset class="alignment">
+		<legend>Tickets Needed</legend>
+		  <ul style="list-style-type: none; padding: 0px">
+		    <li>
+		      <label for="adult">How many adult Tickets?:</label><br>
+		      <input type="number" name="adult" id="adult" min="1">
+		    </li>
+		    <li>
+		      <label for="child">How many child Tickets?:</label><br>
+		      <input type="number" name="child" id="child" min="0"
+		       style="margin: 10px 1px">
+		    </li>
+		  </ul>
+		</fieldset>
+	  </section>
+	  
+	  <section class="date">
+	    <!-- DATES DATA -->
+		<fieldset class="alignment">
+		<legend>Which Date Do You Want?</legend>
+		<ul style="list-style-type: none; padding: 0px">
+		  <li>
+		    <label for="date">Date List:</label>
+		    <select name="date" id="date">
+		      <option value="mar2020">Mar 2020</option>
+		      <option value="apr2020">Apr 2020</option>
+		      <option value="may2020">May 2020</option>
+		    </select>
+		  </li>
+		</ul>
+		</fieldset>
+	  </section>
+	  
+	  <footer>
+	    <button class="submit" type="submit" form="form">
+		  Send Your Order</button>
+		  <br>
+		  <br>
+		<a href="Diallo_Lab9_Proj.html" id="return">Return to Main Page</a>
+	  </footer>
+	</form>
+  </div>
+</body>
+
+</html>
